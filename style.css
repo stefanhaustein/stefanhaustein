@@ -15,11 +15,16 @@ dd {
 }
 
 body {
-	font-family: sans-serif;
+	font-family: "PT Serif", serif;
 	background-color:#666;
 	padding:100px 0;
 	margin:0;
 	color: #000;
+}
+
+.card-header {
+	font-family: Roboto, sans-serif;
+	color: #333;
 }
 
 /* Title */
@@ -108,6 +113,16 @@ a.link {
   padding: 0px 5px;
 }
 
+.card-header {
+	background-color:#88f;
+	color:#fff;
+	text-align:center;
+	font-size:40px;
+	height:180px;
+	vertical-align:middle;
+	padding-top:70px;
+}
+
 .card-title {
 	clear: both;
 	padding: 10px 10px 10px 10px;
@@ -137,6 +152,7 @@ a.link {
 .tag-stable {
 	color: white;
 	background-color: #88d;
+	font-family: Roboto, sans-serif;
 	padding: 3px 6px;
 	border-radius: 10px;
 	font-size:14px;
